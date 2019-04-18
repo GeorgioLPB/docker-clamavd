@@ -9,8 +9,8 @@ LABEL \
 	maintainer georges.gregorio@gmail.com
 
 ENV \
-	Alpine 3.9.3 \
-	ClamAV 0.100.2-r0
+	Alpine="3.9.3" \
+	ClamAV="0.100.2-r0"
 
 RUN set -eux;\
 	#
