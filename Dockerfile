@@ -5,12 +5,12 @@ FROM alpine:3.9
 # https://pkgs.alpinelinux.org/packages?name=clamav&branch=v3.9
 #
 LABEL \
-	ClamAV 0.100.2-r0 \
+	ClamAV 0.100.3-r0 \
 	maintainer georges.gregorio@gmail.com
 
 ENV \
 	Alpine="3.9.3" \
-	ClamAV="0.100.2-r0"
+	ClamAV="0.100.3-r0"
 
 RUN set -eux;\
 	#
