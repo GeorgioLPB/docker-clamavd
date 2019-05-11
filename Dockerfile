@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.9.4
 #
 # https://www.alpinelinux.org/
 # https://hub.docker.com/_/alpine
