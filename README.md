@@ -4,13 +4,11 @@ ClamAV is an open source antivirus engine for detecting trojans, viruses, malwar
 
 | Tags       | Alpine | ClamAV     |
 | :--------: | :----- | :--------- |
-| 0.100.3-r0 | 3.9.3  | 0.100.3-r0 |
-| 0.100.2-r0 | 3.9.3  | 0.100.2-r0 |
+| 0.100.3-r0 | 3.9.4  | 0.100.3-r0 |
 
 ## Supported tags and respective Dockerfile links
 
 * [0.100.3-r0, latest, (0.100.3-r0/Dockerfile)](https://github.com/GeorgioLPB/docker-clamavd/blob/0.100.3-r0/Dockerfile)
-* [0.100.2-r0 (0.100.2-r0/Dockerfile)](https://github.com/GeorgioLPB/docker-clamavd/blob/0.100.2-r0/Dockerfile)
 
 ## Usage
 

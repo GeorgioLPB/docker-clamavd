@@ -2,15 +2,16 @@ FROM alpine:3.9
 #
 # https://www.alpinelinux.org/
 # https://hub.docker.com/_/alpine
-# https://pkgs.alpinelinux.org/packages?name=clamav&branch=v3.9
+# https://pkgs.alpinelinux.org/packages?name=clamav&branch=v3.9&arch=x86_64
 #
 LABEL \
 	ClamAV 0.100.3-r0 \
+	Alpine 3.9.4 \
 	maintainer georges.gregorio@gmail.com
 
 ENV \
-	Alpine="3.9.3" \
-	ClamAV="0.100.3-r0"
+	ClamAV="0.100.3-r0" \
+	Alpine="3.9.4"
 
 RUN set -eux;\
 	#
