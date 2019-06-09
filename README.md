@@ -1,11 +1,13 @@
 # ClamAV container
 
-ClamAV is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.
+* ClamAV is an open source antivirus engine for detecting Trojans, viruses, malware and other malicious threats.
+* This container is intended to be used with the [Nextcloud](https://nextcloud.com/) self-hosted productivity platform and its application [Antivirus for files](https://apps.nextcloud.com/apps/files_antivirus), but it can also be used in other situations.
 
-| Tags         | Alpine   | ClamAV       |
-| :----------: | :------- | :----------- |
-| `latest`     | `latest` | `0.100.3-r0` |
-| `0.100.3-r0` | `3.9.4`  | `0.100.3-r0` |
+
+| Tags         | Alpine  | ClamAV       |
+|:-------------|:--------|:-------------|
+| `latest`     | `3.9.4` | `0.100.3-r0` |
+| `0.100.3-r0` | `3.9.4` | `0.100.3-r0` |
 
 ## Supported tags and respective Dockerfile links
 
