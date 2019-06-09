@@ -17,7 +17,7 @@ RUN set -eux;\
 	#
 	# Install ClamAV
 	#
-	apk add --no-cache clamav clamav-libunrar && \
+	apk add --no-cache --upgrade clamav clamav-libunrar && \
 	#
 	# Folder configuration
 	#
@@ -48,6 +48,8 @@ RUN set -eux;\
 	sed -i "s|^#ScanPE\s.*|ScanPE yes|g" '/etc/clamav/clamd.conf' && \
 	sed -i "s|^#DisableCertCheck\s.*|DisableCertCheck yes|g" '/etc/clamav/clamd.conf' && \
 	sed -i "s|^#DetectBrokenExecutables\s.*|DetectBrokenExecutables yes|g" '/etc/clamav/clamd.conf'
+
+VOLUME [ "/data" ]
 
 EXPOSE 3310/tcp
 
