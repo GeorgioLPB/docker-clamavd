@@ -1,16 +1,16 @@
-FROM alpine:3.10.0
+FROM alpine:3.10.1
 #
 # https://hub.docker.com/_/alpine
 # https://pkgs.alpinelinux.org/packages?name=clamav&branch=v3.10&arch=x86_64
 #
 LABEL \
 	ClamAV 0.100.3-r0 \
-	Alpine 3.10.0 \
+	Alpine 3.10.1 \
 	maintainer georges.gregorio@gmail.com
 
 ENV \
 	ClamAV="0.100.3-r0" \
-	Alpine="3.10.0"
+	Alpine="3.10.1"
 
 RUN set -eux;\
 	#
