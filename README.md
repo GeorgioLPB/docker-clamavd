@@ -2,11 +2,13 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-| Tags     | Alpine   | ClamAV       |
-|:---------|:---------|:-------------|
-| `latest` | `3.10.1` | `0.100.3-r0` |
+| Tags         | Alpine   | ClamAV       |
+|:-------------|:---------|:-------------|
+| `latest`     | `3.10.2` | `0.101.4-r0` |
+| `0.100.3-r0` | `3.10.1` | `0.100.3-r0` |
 
 * [latest, (latest/Dockerfile)](https://github.com/GeorgioLPB/docker-clamavd/blob/master/Dockerfile)
+* [0.100.3-r0, (0.100.3-r0/Dockerfile)](https://github.com/GeorgioLPB/docker-clamavd/blob/0.100.3-r0/Dockerfile)
 
 ## Quick reference
 
