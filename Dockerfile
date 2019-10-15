@@ -3,23 +3,10 @@ FROM alpine:3.10.2
 # https://hub.docker.com/_/alpine
 # https://pkgs.alpinelinux.org/packages?name=clamav&branch=v3.10&arch=x86_64
 #
-LABEL \
-	ClamAV 0.101.4-r0 \
-	Alpine 3.10.2 \
-	maintainer georges.gregorio@gmail.com
-
-ENV \
-	ClamAV="0.101.4-r0" \
-	Alpine="3.10.2"
+LABEL maintainer georges.gregorio@gmail.com
 
 RUN set -eux;\
-	#
-	# Install ClamAV
-	#
 	apk add --no-cache --upgrade clamav clamav-libunrar && \
-	#
-	# Folder configuration
-	#
 	mkdir -p '/run/clamav' && \
 	chown clamav:clamav '/run/clamav' && \
 	mkdir -p '/data' && \
@@ -48,8 +35,8 @@ RUN set -eux;\
 	sed -i "s|^#DisableCertCheck\s.*|DisableCertCheck yes|g" '/etc/clamav/clamd.conf' && \
 	sed -i "s|^#DetectBrokenExecutables\s.*|DetectBrokenExecutables yes|g" '/etc/clamav/clamd.conf'
 
-VOLUME [ "/data" ]
+#VOLUME [ "/data" ]
 
-EXPOSE 3310/tcp
+#EXPOSE 3310/tcp
 
 CMD if [ ! -f /data/main.cvd ] ; then freshclam ; else freshclam -d -c 6 && clamd ; fi
