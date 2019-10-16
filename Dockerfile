@@ -35,6 +35,8 @@ RUN set -eux;\
 	sed -i "s|^#DisableCertCheck\s.*|DisableCertCheck yes|g" '/etc/clamav/clamd.conf' && \
 	sed -i "s|^#DetectBrokenExecutables\s.*|DetectBrokenExecutables yes|g" '/etc/clamav/clamd.conf'
 
+#WORKDIR /data
+
 #VOLUME [ "/data" ]
 
 #EXPOSE 3310/tcp
