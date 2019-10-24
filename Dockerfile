@@ -17,4 +17,4 @@ RUN set -eux;\
 
 #EXPOSE 3310/tcp
 
-CMD if [ ! -f /data/main.cvd ] ; then freshclam ; else freshclam -d -c 6 && clamd --foreground ; fi
+CMD if [ ! -f /var/lib/clamav/main.cvd ] ; then freshclam ; else freshclam -d -c 6 && clamd --foreground ; fi
