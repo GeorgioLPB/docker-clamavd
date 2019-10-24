@@ -9,7 +9,7 @@ RUN set -eux;\
 	apk add --no-cache --upgrade clamav clamav-libunrar && \
 	mkdir -p '/run/clamav' && \
 	chown clamav:clamav '/run/clamav' && \
-	sed -i "s|^#TCPSocket\s.*|TCPSocket 3310|g" '/etc/clamav/clamd.conf' && \
+	sed -i "s|^#TCPSocket\s.*|TCPSocket 3310|g" '/etc/clamav/clamd.conf'
 
 #WORKDIR /var/lib/clamav
 
