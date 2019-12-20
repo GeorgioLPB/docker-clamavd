@@ -1,7 +1,7 @@
-FROM alpine:3.10.3
+FROM alpine:3.11.0
 #
 # https://hub.docker.com/_/alpine
-# https://pkgs.alpinelinux.org/packages?name=clamav&branch=v3.10&arch=x86_64
+# https://pkgs.alpinelinux.org/packages?name=clamav&branch=v3.11&arch=x86_64
 #
 LABEL maintainer georges.gregorio@gmail.com
 
