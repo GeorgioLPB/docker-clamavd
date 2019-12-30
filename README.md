@@ -4,7 +4,7 @@
 
 | Tags         | Alpine   | ClamAV       |
 |:-------------|:---------|:-------------|
-| `latest`     | `3.11.0` | `0.102.1-r0` |
+| `latest`     | `3.11.2` | `0.102.1-r0` |
 
 * [latest, (latest/Dockerfile)](https://github.com/GeorgioLPB/docker-clamavd/blob/master/Dockerfile)
 
