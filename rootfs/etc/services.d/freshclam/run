@@ -1,2 +1,2 @@
 #!/usr/bin/execlineb -P
-/usr/bin/freshclam --foreground --checks 6
+/usr/bin/freshclam --foreground --daemon --show-progress --checks 6
