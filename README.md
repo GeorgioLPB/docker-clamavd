@@ -2,9 +2,9 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-| Tags         | Alpine   | ClamAV       |
-|:-------------|:---------|:-------------|
-| `latest`     | `3.11.2` | `0.102.1-r0` |
+| Tags         | Alpine   | s6 overlay | ClamAV       |
+|:-------------|:---------|:-----------|:-------------|
+| `latest`     | `3.11.3` | `1.22.1.0` | `0.102.1-r0` |
 
 * [latest, (latest/Dockerfile)](https://github.com/GeorgioLPB/docker-clamavd/blob/master/Dockerfile)
 
@@ -17,6 +17,8 @@
   * [Alpine Linux official website](https://www.alpinelinux.org/)
   * [Alpine Linux Wiki](https://wiki.alpinelinux.org/wiki/Main_Page)
   * [Alpine Docker Official Images](https://hub.docker.com/_/alpine)
+* s6 overlay
+  * [s6 overlay official website](https://github.com/just-containers/s6-overlay)
 
 ## What is ClamAV?
 
