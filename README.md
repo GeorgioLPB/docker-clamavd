@@ -4,7 +4,7 @@
 
 | Tags         | Alpine   | s6 overlay | ClamAV       |
 |:-------------|:---------|:-----------|:-------------|
-| `latest`     | `3.11.3` | `1.22.1.0` | `0.102.1-r0` |
+| `latest`     | `3.11.5` | `1.22.1.0` | `0.102.1-r0` |
 
 * [latest, (latest/Dockerfile)](https://github.com/GeorgioLPB/docker-clamavd/blob/master/Dockerfile)
 
